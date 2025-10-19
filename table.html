@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Interview Form</title>
+</head>
+<body style="font-family: Arial; background-color: hwb(0 96% 4% / 0.563); padding: 20px;">
+
+  <h2 style="color: #999999;">Interview Form</h2>
+  <form style="background-color: #fff; padding: 20px; border-radius: 10px; width: 300px;">
+
+    NAME: <input type="text" name="name"><br><br>
+
+    EMAIL: <input type="email" name="email"><br><br>
+
+    PASSWORD: <input type="password" name="password"><br><br>
+
+    DOB: <input type="date" name="dob"><br><br>
+
+    AGE: <input type="number" name="age" min="18"><br><br>
+
+    Gender:<br>
+    Male <input type="radio" name="gender" value="male">
+    Female <input type="radio" name="gender" value="female"><br><br>
+
+    MOBILE: <input type="tel" name="mobile" maxlength="10" pattern="[0-9]{10}"><br><br>
+
+    Known Languages:<br>
+    Telugu <input type="checkbox" name="lang_telugu">
+    English <input type="checkbox" name="lang_english">
+    Hindi <input type="checkbox" name="lang_hindi"><br><br>
+
+    CERTIFICATES: <input type="file" name="certificates"><br><br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
